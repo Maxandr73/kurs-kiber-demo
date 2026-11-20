@@ -15,7 +15,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%273%27 y=%273%27 width=%2726%27 height=%2726%27 rx=%276%27 fill=%27%232b55d6%27/%3E%3Cpath d=%27M22 7v18%27 stroke=%27%23171c28%27 stroke-width=%272.4%27 stroke-linecap=%27round%27/%3E%3Cpath d=%27M9 12h8M9 17h8M9 22h8%27 stroke=%27%23171c28%27 stroke-width=%271.6%27 stroke-linecap=%27round%27 opacity=%27.55%27/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%273%27 y=%273%27 width=%2726%27 height=%2726%27 rx=%276%27 fill=%27%233f7a4f%27/%3E%3Cpath d=%27M22 7v18%27 stroke=%27%2326211b%27 stroke-width=%272.4%27 stroke-linecap=%27round%27/%3E%3Cpath d=%27M9 12h8M9 17h8M9 22h8%27 stroke=%27%2326211b%27 stroke-width=%271.6%27 stroke-linecap=%27round%27 opacity=%27.55%27/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Piazzolla:wght@500;600&display=swap">
@@ -26,23 +26,23 @@
 {"@context":"https://schema.org","@type":"EducationalOrganization","name":"{{компания}}","description":"Онлайн-курс по кибербезопасности для пенсионеров: пробный урок, план на 8 недель по этапам, простым языком, без технических терминов.","url":"{{ссылка-сайта}}","image":"{{ссылка-сайта}}/assets/og.jpg"}
 </script>
 <style>
-  html, body { margin: 0; background: #f3f5f8; }
+  html, body { margin: 0; background: #efe7d8; }
 
   /* ---- тема: шесть цветов, два шрифта. Плюс цвета тетради (--nb-*) --------- */
   .v-page {
-    --v-canvas: #f3f5f8; --v-surface: #ffffff;
-    --v-ink: #171c28; --v-ink-soft: #566073;            /* контраст на клетке */
-    --v-accent: #2b55d6; --v-accent-ink: #f4f6fb;       /* синяя паста */
-    --v-accent-deep: #1f43ab;                          /* мелкий акцентный текст */
+    --v-canvas: #efe7d8; --v-surface: #f9f5ec;
+    --v-ink: #26211b; --v-ink-soft: #625b4c;            /* контраст на крафте */
+    --v-accent: #3f7a4f; --v-accent-ink: #f4f8f2;       /* зелёная ручка проверки */
+    --v-accent-deep: #2f5f3c;                          /* мелкий акцентный текст */
     --v-font-display: "Piazzolla", "Georgia", "Times New Roman", serif;
     --v-font-text: "Manrope", "Segoe UI", system-ui, sans-serif;
-    --v-shadow-color: 23 28 40;
+    --v-shadow-color: 50 42 30;
     --v-e1: 0 1px 2px rgb(var(--v-shadow-color) / .08), 0 8px 22px rgb(var(--v-shadow-color) / .10);
     --v-e2: 0 2px 6px rgb(var(--v-shadow-color) / .10), 0 22px 54px rgb(var(--v-shadow-color) / .16);
     --v-radius: 8px;
     --v-track-tight: -0.015em;
     /* тетрадь: бумага листа, линейка, поля, обложка */
-    --nb-paper: #ffffff; --nb-line: #d3dbea; --nb-margin: #d9786c; --nb-cover: #1f2a44; --nb-cover-ink: #f3f5f8;
+    --nb-paper: #fbf7ee; --nb-line: #d9d0bd; --nb-margin: #c9705f; --nb-cover: #3a4f3e; --nb-cover-ink: #f4f8f2;
     /* мелкие кегли не ниже 13 и 15 px */
     --v-t-xs: clamp(0.8125rem, 0.79rem + 0.15vw, 0.85rem);
     --v-t-sm: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
@@ -57,7 +57,7 @@
 
   /* ---- шапка: марка, закладки тетради, одна кнопка --------------------------- */
   .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: var(--v-6);
-    padding: var(--v-3) var(--v-gutter); background: rgb(243 245 248 / .88); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--v-hair); }
+    padding: var(--v-3) var(--v-gutter); background: rgb(239 231 216 / .88); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--v-hair); }
   .bar__mark { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-lg); line-height: 1; text-decoration: none; display: inline-flex; align-items: center; gap: .5em; white-space: nowrap; letter-spacing: -.01em; }
   .bar__mark i { width: .8em; height: 1em; border-radius: 2px; background: var(--v-accent); position: relative; flex: none; }
   .bar__mark i::after { content: ""; position: absolute; top: 15%; bottom: 15%; right: 26%; width: 1.5px; background: var(--v-ink); opacity: .8; }
@@ -80,8 +80,8 @@
   .hero__back img { position: absolute; left: -3%; bottom: -16px; top: auto; width: 106%; height: auto; max-width: none; object-fit: fill; }
   .hero__scrim { position: absolute; inset: 0; z-index: 2; pointer-events: none;
     background:
-      linear-gradient(to bottom, rgb(243 245 248 / 1) 0%, rgb(243 245 248 / .9) 12%, rgb(243 245 248 / 0) 30%),
-      linear-gradient(to right, rgb(243 245 248 / .66) 0%, rgb(243 245 248 / .42) 32%, rgb(243 245 248 / .12) 48%, transparent 58%); }
+      linear-gradient(to bottom, rgb(239 231 216 / 1) 0%, rgb(239 231 216 / .9) 12%, rgb(239 231 216 / 0) 30%),
+      linear-gradient(to right, rgb(239 231 216 / .66) 0%, rgb(239 231 216 / .42) 32%, rgb(239 231 216 / .12) 48%, transparent 58%); }
   .hero__copy { max-width: min(42rem, 50vw); bottom: 0; top: 0; display: flex; flex-direction: column; justify-content: center; padding-top: 3rem; }
   /* наклейка-УТП под углом: прилеплена к концу названия, как стикеры на фото */
   .hero__promo { align-self: flex-end; margin: -0.9em 2% var(--v-2) 0; transform: rotate(-5deg); position: relative;
@@ -114,7 +114,7 @@
   .hero__turn p b { font-weight: 600; }
   @media (max-width: 860px) {
     .hero__back img { left: 0; width: 100%; }
-    .hero__scrim { background: linear-gradient(to bottom, rgb(243 245 248 / 1) 0%, rgb(243 245 248 / .94) 42%, rgb(243 245 248 / .55) 56%, transparent 68%); }
+    .hero__scrim { background: linear-gradient(to bottom, rgb(239 231 216 / 1) 0%, rgb(239 231 216 / .94) 42%, rgb(239 231 216 / .55) 56%, transparent 68%); }
     .hero__copy, .hero__turn { left: var(--v-gutter); right: var(--v-gutter); top: 4.4rem; bottom: auto; display: block; padding-top: 0; max-width: none; }
     .hero__promo { display: inline-block; margin: -0.2em 0 var(--v-2); transform: rotate(-5deg); }
     .hero__label { margin-bottom: var(--v-3); }
@@ -180,18 +180,16 @@
     background:
       linear-gradient(to right, transparent calc(100% - 2.6rem), var(--nb-margin) calc(100% - 2.6rem), var(--nb-margin) calc(100% - 2.6rem + 1px), transparent calc(100% - 2.6rem + 1px)),
       repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--lh) - 1px), var(--nb-line) calc(var(--lh) - 1px), var(--nb-line) var(--lh)),
-      repeating-linear-gradient(to right, transparent 0, transparent calc(var(--lh) - 1px), var(--nb-line) calc(var(--lh) - 1px), var(--nb-line) var(--lh)),
       var(--nb-paper);
-    background-origin: border-box; background-position: 0 0, 0 calc(var(--pad) + var(--lh) * .9), 0 0, 0 calc(var(--pad) + var(--lh) * .9);
+    background-origin: border-box; background-position: 0 0, 0 calc(var(--pad) + var(--lh) * .9), 0 0;
     box-shadow: inset 0 0 0 1px rgb(var(--v-shadow-color) / .06); border-radius: 0 3px 3px 0; }
   .leaf__face::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to right, rgb(var(--v-shadow-color) / .22), rgb(var(--v-shadow-color) / .06) 30%, transparent 55%); opacity: calc(var(--f) * 1.6); }
   .leaf__back { transform: rotateY(180deg); border-radius: 3px 0 0 3px;
     background:
       linear-gradient(to right, transparent 2.6rem, var(--nb-margin) 2.6rem, var(--nb-margin) calc(2.6rem + 1px), transparent calc(2.6rem + 1px)),
       repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--lh) - 1px), var(--nb-line) calc(var(--lh) - 1px), var(--nb-line) var(--lh)),
-      repeating-linear-gradient(to right, transparent 0, transparent calc(var(--lh) - 1px), var(--nb-line) calc(var(--lh) - 1px), var(--nb-line) var(--lh)),
       var(--nb-paper);
-    background-position: 0 0, 0 calc(var(--pad) + var(--lh) * .9), 0 0, 0 calc(var(--pad) + var(--lh) * .9); padding-left: calc(var(--pad) + 2.2rem); }
+    background-position: 0 0, 0 calc(var(--pad) + var(--lh) * .9), 0 0; padding-left: calc(var(--pad) + 2.2rem); }
   .leaf__back::after { background: linear-gradient(to left, rgb(var(--v-shadow-color) / .18), rgb(var(--v-shadow-color) / .05) 30%, transparent 55%); opacity: calc((1 - var(--f)) * 1.6); }
   /* обложка: плотный картон, наклейка с надписью */
   .leaf--cover .leaf__front { background: var(--nb-cover); box-shadow: var(--v-e2), inset 0 0 0 1px rgb(255 255 255 / .08); color: var(--nb-cover-ink); display: grid; align-content: end; }
@@ -428,7 +426,7 @@
     </section>
 
     <!-- 3 · ПЛАН: тетрадь, которую листаешь. Фирменный ход: листы вращаются от --v-p, без JS -->
-    <section data-v-act="pin" data-v-span="2.5" data-v-drift="#f8f9fb" id="plan" aria-label="План на 8 недель">
+    <section data-v-act="pin" data-v-span="2.5" data-v-drift="#f4eee2" id="plan" aria-label="План на 8 недель">
       <div data-v-stage>
         <div class="plan">
           <div class="plan__copy" data-v-cue="0 1 0 0" data-v-rise="0">
@@ -609,7 +607,7 @@
     </section>
 
     <!-- 5 · ЦЕНЫ И ФОРМАТЫ: строки с линиями -->
-    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#f3f5f8" id="ceny" aria-label="Цены и форматы">
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#efe7d8" id="ceny" aria-label="Цены и форматы">
       <div class="v-wrap prices">
         <div class="prices__head" data-v-in data-v-stagger="60">
           <span class="v-label">Цены и форматы</span>
@@ -643,7 +641,7 @@
     </section>
 
     <!-- 6 · ПРЕПОДАВАТЕЛЬ: факты слотами, фото без лица -->
-    <section class="v-section" data-v-act="flow" data-v-drift="#f8f9fb" id="prepod" aria-label="Преподаватель">
+    <section class="v-section" data-v-act="flow" data-v-drift="#f4eee2" id="prepod" aria-label="Преподаватель">
       <div class="v-wrap prep">
         <figure class="prep__fig" data-v-reveal="up" data-v-reveal-at="0.12 0.5">
           <img src="assets/teacher.webp" alt="Преподаватель курса за столом проверяет тетрадь" width="1000" height="1333" loading="lazy">
